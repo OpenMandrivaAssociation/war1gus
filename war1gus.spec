@@ -8,6 +8,7 @@ Group:		Games/Strategy
 License:	GPLv2
 BuildRequires:	cmake
 BuildRequires:	ninja
+BuildRequires:  ImageMagick
 BuildRequires:	pkgconfig(gtk+-2.0)
 BuildRequires:  pkgconfig(freetype2)
 BuildRequires:	pkgconfig(libpng)
