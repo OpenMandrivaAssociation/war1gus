@@ -41,9 +41,9 @@ Both the DOS CD and Floppy versions should work. Extracting the data from demo, 
 %ninja_install -C build
 
 %files
-%doc README.md doc/*
+#doc README.md doc/*
 %{_gamesbindir}/%{name}
-%{_bindir}/war1gus
+#{_bindir}/war1gus
 %{_bindir}/war1tool
 %{_gamesdatadir}/stratagus/%{name}
 %{_datadir}/pixmaps/%{name}.png
