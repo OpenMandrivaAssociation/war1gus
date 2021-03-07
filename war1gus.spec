@@ -41,23 +41,9 @@ Both the DOS CD and Floppy versions should work. Extracting the data from demo, 
 %ninja_install -C build
 
 %files
-#doc README.md doc/*
 %{_gamesbindir}/%{name}
 %{_bindir}/war1tool
 %{_gamesdatadir}/stratagus/%{name}
 %{_datadir}/pixmaps/%{name}.png
 %{_datadir}/pixmaps/%{name}.xpm
 %{_datadir}/applications/%{name}.desktop
-
-
-
-%changelog
-* Thu Sep 27 2012 Zombie Ryushu <ryushu@mandriva.org> 2.2.7-1mdv2012.0
-+ Revision: 817687
-- remove old patches
-- Upgrade to 2.2.7
-
-* Mon Jan 30 2012 Andrey Bondrov <abondrov@mandriva.org> 2.2.6-1
-+ Revision: 769857
-- Add patch0 and patch1 to fix build in Cooker (DSO and png issues)
-- imported package wargus
