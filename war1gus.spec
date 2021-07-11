@@ -35,6 +35,8 @@ Both the DOS CD and Floppy versions should work. Extracting the data from demo, 
 %cmake -G Ninja
 
 %build
+export CC=gcc
+export CXX=g++
 %ninja_build -C build
 
 %install
