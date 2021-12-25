@@ -31,11 +31,11 @@ Both the DOS CD and Floppy versions should work. Extracting the data from demo, 
 
 %prep
 %autosetup -p1
-export CXXFLAGS="%{optflags} -std=c++17"
+export optflags %{optflags} -std=c++17"
 %cmake -G Ninja
 
 %build
-export CXXFLAGS="%{optflags} -std=c++17"
+export optflags %{optflags} -std=c++17"
 %ninja_build -C build
 
 %install
