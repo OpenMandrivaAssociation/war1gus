@@ -14,6 +14,7 @@ BuildRequires:  pkgconfig(freetype2)
 BuildRequires:	pkgconfig(libpng)
 BuildRequires:  pkgconfig(zlib)
 BuildRequires:  stdc++-devel
+BuildRequires:  c++-devel
 BuildRequires:	stratagus-devel = %{version}
 
 Requires:	cdparanoia
