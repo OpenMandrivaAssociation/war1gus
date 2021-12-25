@@ -1,6 +1,6 @@
 Name:		war1gus
 Summary:	Warcraft: Orc & Humans data game set for the Stratagus engine (need game data)
-Version:	3.1.2
+Version:	3.2.0
 Release:	1
 Source0:	https://github.com/Wargus/war1gus/archive/v%{version}/%{name}-%{version}.tar.gz
 URL:		https://stratagus.com/war1gus.html
