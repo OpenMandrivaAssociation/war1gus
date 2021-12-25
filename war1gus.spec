@@ -33,7 +33,8 @@ Both the DOS CD and Floppy versions should work. Extracting the data from demo, 
 %autosetup -p1
 
 %cmake -G Ninja
-
+export CC=gcc
+export CXX=g++
 %build
 export CC=gcc
 export CXX=g++
