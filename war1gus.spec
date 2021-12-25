@@ -13,6 +13,7 @@ BuildRequires:	pkgconfig(gtk+-2.0)
 BuildRequires:  pkgconfig(freetype2)
 BuildRequires:	pkgconfig(libpng)
 BuildRequires:  pkgconfig(zlib)
+BuildRequires:  stdc++-devel
 BuildRequires:	stratagus-devel = %{version}
 
 Requires:	cdparanoia
@@ -33,11 +34,11 @@ Both the DOS CD and Floppy versions should work. Extracting the data from demo, 
 %autosetup -p1
 
 %cmake -G Ninja
-export CC=gcc
-export CXX=g++
+#export CC=gcc
+#export CXX=g++
 %build
-export CC=gcc
-export CXX=g++
+#export CC=gcc
+#export CXX=g++
 %ninja_build -C build
 
 %install
